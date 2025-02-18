@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+body{
+  background-color: black;
+}
+.background-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  opacity: 30%;
+  z-index: -1; 
+}
+
+.menu {
+    position: relative;
+    background-color:rgba(0, 0, 0, 0.925);
+    color: rgb(0, 0, 0);
+    height: 100vh; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column;
+    transform: translateY(-100%);
+    opacity: 0;
+    transition: transform 0.5s ease, opacity 0.5s ease; 
+  }
+  
+  .menu.slide-down {
+    transform: translateY(0); 
+    opacity: 1;
+  }
+  
+  
+  .menu-links {
+    display: flex;
+    gap: 120px;
+    list-style: none; 
+    padding: 0; 
+    margin-bottom: 50px; 
+    position: relative;
+    top:-130px;
+  }
+  .link-description {
+    color: #ac9e9e;
+    font-size: 1rem;
+    margin-top: 8px;
+    width: 200px;
+    text-align: center;
+    line-height: 1.4;
+}
+  
+ 
+  .menu-links li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+
+  .menu-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 2.5rem; 
+    padding: 10px 20px;
+    display: inline-block; 
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .menu-links a:hover {
+    background-color: #555;
+  }
+  
+
+
+  .back-button {
+    
+    position: fixed;
+    top: 30px;
+    left: 1850px;
+    width: 30px;
+    height: 30px;
+    background: url('close.png') no-repeat center center; 
+    background-size: contain; 
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out,opacity 0.5s ease-in-out;
+    filter: invert(1);
+  }
+  .back-button:hover {
+    transform: rotate(90deg);
+  }
+  .back-button.hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+.info{ 
+  position: absolute;
+  top: 850px;
+  left: 1850px;
+  width: 40px;
+  height: 40px;
+}
+.info:hover{
+  transform: scale(1.1);
+  background-color: #141313;
+  border-radius: 50%;
+}

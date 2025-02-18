@@ -1,0 +1,369 @@
+body {
+    background-color: rgb(15, 38, 108);
+    color: #ffffff;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  overflow-x: hidden;
+  font-family: "inter", sans-serif;
+}
+.header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: transparent;
+    color: white;
+    padding: 20px 25px 5px;
+  }
+  
+  .hamburger {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 5px;
+  }
+  
+  .hamburger span {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    border-radius: 5px;
+    transition: all background-color 0.8s ease-in-out;
+    cursor: pointer;
+  }
+
+  .hamburger:hover{
+    background-color: #000000;
+    opacity: 40%;
+  }
+  .hamburger:active{
+    background-color: #5a1010;
+  }
+
+  .menu {
+    position: relative;
+    background-color: #444;
+    color: white;
+    padding: 50px 20px;
+    transform: translateY(-100%);
+    opacity: 0;
+    transition: transform 0.5s ease, opacity 0.5s ease; 
+  }
+  
+  .menu.slide-down {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  
+  .menu-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu-links li {
+    margin: 10px 0;
+  }
+  
+  .menu-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 10px;
+    display: block;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+
+  .menu-links a:hover {
+    background-color: #555;
+  }
+  .sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 250px;
+    background-color: rgb(224, 224, 224);
+    overflow: auto;
+    padding-top: 10px;
+}
+
+.sidebar a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #000000;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.sidebar a:hover {
+    color: white;
+    background-color: #444;
+}
+
+.sidebar h2 {
+    color: #000000;
+    padding-left: 35px;
+}
+
+.capitol {
+    margin-bottom: 10px;
+}
+
+.capitol-btn {
+    width: 100%;
+    background-color: #ccc;
+    border: none;
+    padding: 10px;
+    text-align: left;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.capitol-btn:hover {
+    background-color: #bbb;
+}
+
+.lectii {
+    display: none;
+    padding-left: 20px;
+}
+
+.lectii a {
+    padding: 8px 10px;
+    display: block;
+}
+
+h1{
+    position:absolute;
+    font-size:5rem;
+    left:300px;
+    top:1px;
+    color:black;
+    font-weight:bold;
+    z-index:40;
+
+}
+.cutie1{
+position:absolute;
+width:1920px;
+height:150px;
+background-color:rgb(217,217,217);
+left:250px;
+}
+.p1{
+    position:absolute;
+    word-wrap:break-word;
+    overflow-wrap:break-word;
+    white-space:normal;
+    max-width: 700px;
+    left:735px;
+    top:400px;
+    font-size: 2rem; 
+    z-index:40;
+    color:rgb(12, 29, 81);
+    font-weight:bolder;
+    
+
+}
+.cutie2{
+    position:absolute;
+    width:1218px;
+    height:534px;
+    background-color:rgb(217,217,217);
+    left:450px;
+    border-radius: 250px;
+    top:350px;
+}
+.cerc1{
+    position:relative;
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    left:1500px;
+    top:250px;
+    background-color:orange;
+}
+.cerc2{
+    position:relative;
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    left:1550px;
+    top:600px;
+    background-color:orange;
+}
+.p2{
+    position:relative;
+    color:rgb(12, 29, 81);
+    word-wrap:break-word;
+    overflow-wrap:break-word;
+    white-space:normal;
+    max-width: 1200px;
+    top:770px;
+    left:350px;
+    font-size:3rem;
+    z-index:40;
+    font-weight:bolder;
+
+
+}
+.gradient{
+position:absolute;
+width:1270px;
+height:470px;
+left:300px;
+top:1000px;
+
+}
+.clavicule{
+position:absolute;
+width:852px;
+height:852px;
+left:1100px;
+top:1270px;
+
+}
+.cerc3{
+  position:absolute;
+    width:200px;
+    height:200px;
+    border-radius:50%;
+    left:280px;
+    top:1350px;
+    background-color:rgb(194, 72, 71);
+    z-index:50;
+}
+.cerc4{
+  position:absolute;
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    left:600px;
+    top:1600px;
+    background-color:rgb(194, 72, 71);
+    z-index:50;
+}
+.cutie4{
+  position:absolute;
+  width:1670px;
+  height:2px;
+  left:250px;
+  top:2400px;
+  background-color:rgb(217, 217, 217);
+  z-index:50;
+
+}
+.p3{
+  position:absolute;
+    color:rgb(12, 29, 81);
+    word-wrap:break-word;
+    overflow-wrap:break-word;
+    white-space:normal;
+    max-width: 1000px;
+    top:2750px;
+    left:330px;
+    font-size:2.5rem;
+    z-index:40;
+    font-weight:bolder;
+
+}
+.gradient2{
+  position:absolute;
+  width:1000px;
+  height:470px;
+  left:300px;
+  top:2700px;
+}
+.spate{
+  position:absolute;
+  width:738px;
+  height:738px;
+  left:1100px;
+  top:2820px;
+
+  }
+.cutie5{
+  position:absolute;
+  width:1670px;
+  height:2px;
+  left:250px;
+  top:3800px;
+  background-color:rgb(217, 217, 217);
+  z-index:50;
+
+
+}
+.p4{
+  position:absolute;
+  color:rgb(12, 29, 81);
+  word-wrap:break-word;
+  overflow-wrap:break-word;
+  white-space:normal;
+  max-width: 1600px;
+  top:4000px;
+  left:450px;
+  font-size:2rem;
+  z-index:40;
+  font-weight:bolder;
+}
+.cutie6{
+  position:absolute;
+  width:1250px;
+  height:134px;
+  left:400px;
+  top:3980px;
+  background-color:rgb(217, 217, 217);
+  border-radius:50px;
+}
+.os{
+position:absolute;
+width:1500px;
+height:1000px;
+top:3900px;
+left:270px;
+}
+
+.cutie7{
+  position:absolute;
+  width:1670px;
+  height:2px;
+  left:250px;
+  top:4700px;
+  background-color:rgb(217, 217, 217);
+  z-index:50;
+}
+
+.cutie8{
+  position:absolute;
+  width:1304px;
+  height:312px;
+  left:400px;
+  top:4800px;
+  background-color:rgb(194, 72, 71);
+  border-radius:50px;
+
+}
+.p5{
+  position:absolute;
+  color:rgb(217, 217, 217);
+  word-wrap:break-word;
+  overflow-wrap:break-word;
+  white-space:normal;
+  max-width: 1300px;
+  top:4900px;
+  left:450px;
+  font-size:2rem;
+  z-index:40;
+  font-weight:bolder;
+}
+.mana{
+  position:absolute;
+  width:1400px;
+  height:888px;
+  left:400px;
+  top:5000px;
+  
+}

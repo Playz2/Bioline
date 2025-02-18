@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=`, initial-scale=1.0">
+    <title>bioline</title>
+    <link rel="stylesheet" href="test1s.css">
+</head>
+<body>
+    <header class="header">
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+    <img class="back" src="GRADIENT-WALLPAPER-4k.png" alt="back">  
+    <div class="fixed">  
+    <div class="gradi"></div>
+    <a href="exerciti.html"><button id="backButton" class="back-btn">⬅ Înapoi</button></a>
+    <video id="ske" class="ske"  src="skele.mp4" autoplay loop muted playsinline></video>
+    <button id="videoToggle" class="video-btn">⏸ Pause</button>    
+
+    <div id="timer" class="timer">⏳ 10:00</div>
+    </div>
+
+  <div class="test">
+    <div class="cutie">
+        <div class="cuti1">
+      <h2 class="aleg">1. Alegeți răspunsul corect:</h2>
+      <p class="intrebare">Din ce oase este alcătuit neurocraniul?</p>
+      <p class="rasr" data-correct="A">A) Frontal, etmoid, sfenoid, occipital, temporale, parietale</p>
+      <p class="rasr" >B) Maxilare, palatine, nazale, lacrimale, zigomatice</p>
+      <p class="rasr" >C) Femur, tibie, fibulă, humerus</p>
+      <p class="rasr" >D) Stern, scapulă, coxal</p>
+      <button class="verifca">✔ Verifica</button>
+      <div class="linie"></div>
+        </div>
+        <div class="cuti1">
+      <h2 class="aleg">2. Alegeți răspunsul corect:</h2>
+      <p class="intrebare">Câte perechi de coaste are scheletul uman?</p>
+      <p class="rasr" data-correct="A">A) 10</p>
+      <p class="rasr" >B) 12</p>
+      <p class="rasr" >C) 7</p>
+      <p class="rasr" >D) 14</p>
+      <button class="verifca">✔ Verifica</button>
+      <div class="linie"></div>
+      </div>
+
+      <h2 class="aleg">3. Asociați noțiunile din coloana A cu cele din coloana B:</h2>
+      <div class="cutie2">
+        <div class="coloane">
+          <h3 class="coloaneenume">Coloana A</h3>
+          <div class="scris2">
+            <p class="optiuni" >1.Femur<input type="text" id="match1" class="match-box" placeholder="Ex: B"></p>
+            <p class="optiuni">2.Parietal<input type="text" id="match2" class="match-box" placeholder="Ex: B"></p>
+            <p class="optiuni">3.Carpiene<input type="text" id="match3" class="match-box" placeholder="Ex: B"></p>
+            <p class="optiuni">4.Rotula<input type="text" id="match4" class="match-box" placeholder="Ex: B"></p>
+          </div>
+        </div>
+        <div class="coloane">
+          <h3 class="coloanenume">Coloana B</h3>
+          <div class="scris2">
+            <p class="optiuni">a.Oase late</p>
+            <p class="optiuni">b.Oase lungi</p>
+            <p class="optiuni">c.Oase scurte</p>
+            <p class="optiuni">d.Oase sesamoide</p>
+          </div>
+        </div>
+      </div>
+        <button class="check-btn" onclick="checkMatching1()">✔ verifica</button>
+      <div class="linie"></div>
+     <div class="cuti1">
+      <h2 class="aleg">4. Alegeți răspunsul corect:</h2>
+      <p class="intrebare">Ce rol are coloana vertebrală?</p>
+      <p class="rasr" >A) Protejează măduva spinării</p>
+      <p class="rasr" data-correct="B">B) Susține corpul</p>
+      <p class="rasr" >C) Permite mișcarea trunchiului</p>
+      <p class="rasr" >D) Toate cele de mai sus</p>
+      <button class="verifca">✔ Verifica</button>
+      <div class="linie"></div>
+     </div>
+     <div class="cuti1">
+      <h2 class="aleg">5. Alegeți răspunsul corect:</h2>
+      <p class="intrebare">Ce oase alcătuiesc viscerocraniul?</p>
+      <p class="rasr" data-correct="A">A) Maxilare, palatine, nazale, lacrimale, zigomatice,<br>cornetele nazale inferioare, vomerul, mandibula</p>
+      <p class="rasr" >B) Frontal, etmoid, sfenoid, occipital</p>
+      <p class="rasr" >C) Stern, coaste, claviculă</p>
+      <p class="rasr" >D) Femur, tibie, fibulă</p>
+      <button class="verifca">✔ Verifica</button>
+      <div class="linie"></div>
+        </div>
+        <div class="cuti1">
+      <h2 class="aleg">6. Alegeți răspunsul corect:</h2>
+      <p class="intrebare">Ce coaste se numesc „false"?</p>
+      <p class="rasr" data-correct="A">A) Primele 7 perechi</p>
+      <p class="rasr" >B) Perechile VIII, IX, X</p>
+      <p class="rasr" >C) Ultimele 2 perechi</p>
+      <p class="rasr" >D) Toate coastele</p>
+      <button class="verifca">✔ Verifica</button>
+      <div class="linie"></div>
+    </div>
+    <div class="cuti1">
+      <h2 class="aleg">7. Alegeți răspunsul corect:</h2>
+      <p class="intrebare">Ce oase alcătuiesc bazinul?</p>
+      <p class="rasr" data-correct="A">A) Femurul și tibia</p>
+      <p class="rasr" >B) Clavicula și scapula</p>
+      <p class="rasr" >C) Osul sacru și oasele coxale</p>
+      <p class="rasr" >D) Sternul și coastele</p>
+      <button class="verifca">✔ Verifica</button>
+      <div class="linie"></div>
+     </div>
+      <h2 class="aleg">8. Asociați noțiunile din coloana A cu cele din coloana B:</h2>
+      <div class="cutie2">
+        <div class="coloane">
+          <h3 class="coloanenume">Coloana A</h3>
+          <div class="coloane-content">
+            <p class="optiuni">1.Radius<input type="text" id="match5" class="match-box" placeholder="Ex: B"></p>
+            <p class="optiuni">2.Scapula<input type="text" id="match6" class="match-box" placeholder="Ex: B"></p>
+            <p class="optiuni">3.Carpiene<input type="text" id="match7" class="match-box" placeholder="Ex: B"></p>
+            <p class="optiuni">4.Stern<input type="text" id="match8" class="match-box" placeholder="Ex: B"></p>
+          </div>
+        </div>
+        <div class="coloane">
+          <h3 class="coloane-title">Coloana B</h3>
+          <div class="coloane-content">
+            <p class="optiuni">a.Os lung</p>
+            <p class="optiuni">b.Os lat</p>
+            <p class="optiuni">c.Oase scurte</p>
+            <p class="optiuni">d.Os lat</p>
+          </div>
+        </div>
+      </div><button class="check-btn" onclick="checkMatching2()">✔ verifica</button>
+      <div class="linie"></div>
+  
+      <div class="cuti1">
+      <h2 class="aleg">9. Alegeți răspunsul corect:</h2>
+      <p class="intrebare">Ce rol are osul sacru?</p>
+      <p class="rasr" data-correct="A">A) Protejează creierul</p>
+      <p class="rasr" >B) Se articulează cu oasele coxale</p>
+      <p class="rasr" >C) Formează coloana cervicală</p>
+      <p class="rasr" >D) Ajută la digestie</p>
+      <button class="verifca">✔ Verifica</button>
+      <div class="linie"></div>
+    </div>
+     <div class="cuti1">
+      <h2 class="aleg">10. Alegeți răspunsul corect:</h2>
+      <p class="intrebare">Ce curbură a coloanei are concavitatea posterioară?</p>
+      <p class="rasr" data-correct="A">A) Lordoză</p>
+      <p class="rasr" >B) Cifoză</p>
+      <p class="rasr" >C) Scolioză</p>
+      <p class="rasr" >D) Niciuna dintre cele de mai sus</p>
+      <button class="verifca">✔ Verifica</button>
+    </div>
+    </div>
+  </div>
+
+  <script src="scripthub.js"></script>
+  <script src="scriptexerciti.js"></script>
+</body>
+</html>

@@ -1,0 +1,249 @@
+body {
+    background-color: rgb(15, 38, 108);
+    color: #ffffff;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  overflow-x: hidden;
+}
+.header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: transparent;
+    color: white;
+    padding: 20px 25px 5px;
+  }
+  
+  .hamburger {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 5px;
+  }
+  
+  .hamburger span {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    border-radius: 5px;
+    transition: all background-color 0.8s ease-in-out;
+    cursor: pointer;
+  }
+
+  .hamburger:hover{
+    background-color: #000000;
+    opacity: 40%;
+  }
+  .hamburger:active{
+    background-color: #5a1010;
+  }
+
+  .menu {
+    position: relative;
+    background-color: #444;
+    color: white;
+    padding: 50px 20px;
+    transform: translateY(-100%);
+    opacity: 0;
+    transition: transform 0.5s ease, opacity 0.5s ease; 
+  }
+  
+  .menu.slide-down {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  
+  .menu-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu-links li {
+    margin: 10px 0;
+  }
+  
+  .menu-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 10px;
+    display: block;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+
+  .menu-links a:hover {
+    background-color: #555;
+  }
+  .sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 250px;
+    background-color: rgb(217, 217, 217);
+    overflow: auto;
+    padding-top: 10px;
+}
+
+.sidebar a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #000000;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.sidebar a:hover {
+    color: white;
+    background-color: #444;
+}
+
+.sidebar h2 {
+    color: #000000;
+    padding-left: 35px;
+}
+
+.capitol {
+    margin-bottom: 10px;
+}
+
+.capitol-btn {
+    width: 100%;
+    background-color: #ccc;
+    border: none;
+    padding: 10px;
+    text-align: left;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.capitol-btn:hover {
+    background-color: #bbb;
+}
+
+.lectii {
+    display: none;
+    padding-left: 20px;
+}
+
+.lectii a {
+    padding: 8px 10px;
+    display: block;
+}
+
+h1{
+    
+        position:absolute;
+        font-size:5rem;
+        color:rgb(0, 0, 0);
+        left:300px;
+        z-index:90;
+        font-weight:bold;
+        top:-5px;
+
+}
+.cutie1{
+    
+
+  position:absolute;
+  width:1920px;
+  height:150px;
+  background-color:rgb(217,217,217);
+  left:250px;
+}
+.capsus{
+position:absolute;
+width:835px;
+height:839px;
+left:1000px;
+
+
+}
+
+.p1{
+    position:absolute;
+    word-wrap:break-word;
+    overflow-wrap:break-word;
+    white-space:normal;
+    max-width: 600px;
+    left:300px;
+    top:400px;
+    font-size: 1.5rem; 
+    z-index:40;
+    color:rgb(255, 255, 255);
+    font-weight:bold;
+  }
+
+  .p2{
+    position:absolute;
+    word-wrap:break-word;
+    overflow-wrap:break-word;
+    white-space:normal;
+    max-width: 600px;
+    left:430px;
+    top:1000px;
+    font-size: 3rem; 
+    z-index:40;
+    color:rgb(12, 29,81);
+    font-weight:bold;
+
+  }
+
+.cutie2{
+position:absolute;
+width:759px;
+height:1151px;
+background-color:rgb(217, 217, 217);
+top:950px;
+left:312px;
+border-radius:250px;
+  }
+
+  .cutie3{
+
+    position:absolute;
+width:1000px;
+height:10px;
+background-color:rgb(217, 217, 217);
+top:950px;
+left:600px;
+border-radius:100px;
+
+  }
+
+.p3{
+    position:absolute;
+    word-wrap:break-word;
+    overflow-wrap:break-word;
+    white-space:normal;
+    max-width: 600px;
+    left:1200px;
+    top:1000px;
+    font-size: 3rem; 
+    z-index:40;
+    color:rgb(12, 29,81);
+    font-weight:bold;
+
+
+}
+.cutie4{
+    position:absolute;
+    width:759px;
+    height:1151px;
+    background-color:rgb(217, 217, 217);
+    top:950px;
+    left:1090px;
+    border-radius:250px;
+}
+.capdet{
+position:absolute;
+width:1551px;
+height:1079px;
+top:2200px;
+left:300px;
+
+}

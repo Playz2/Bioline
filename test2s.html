@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=`, initial-scale=1.0">
+    <title>bioline</title>
+    <link rel="stylesheet" href="test2s.css">
+</head>
+<body>
+    <header class="header">
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+    <img class="back" src="GRADIENT-WALLPAPER-4k.png" alt="back">  
+    <div class="fixed">  
+    <div class="gradi"></div>
+    <a href="exerciti.html"><button id="backButton" class="back-btn">⬅ Înapoi</button></a>
+    <video id="ske" class="ske"  src="skele.mp4" autoplay loop muted playsinline></video>
+    <button id="videoToggle" class="video-btn">⏸ Pause</button>    
+
+    <div id="timer" class="timer">⏳ 10:00</div>
+    </div>
+
+  <div class="test">
+    <div class="cutie">
+        <div class="cuti1">
+      <h2 class="aleg">1. Alegeți răspunsul corect:</h2>
+      <p class="intrebare">Ce oase alcătuiesc coloana vertebrală?</p>
+      <p class="rasr" data-correct="A">A) Femur, tibie, humerus</p>
+      <p class="rasr" >B) Vertebre cervicale, toracale, lombare, sacrale, coccigiene</p>
+      <p class="rasr" >C) Frontal, parietal, occipital</p>
+      <p class="rasr" >D) Radius, ulna, carpiene</p>
+      <button class="verifca">✔ Verifica</button>
+      <div class="linie"></div>
+        </div>
+        <div class="cuti1">
+      <h2 class="aleg">2. Alegeți răspunsul corect:</h2>
+      <p class="intrebare">Câte regiuni are coloana vertebrală?</p>
+      <p class="rasr" data-correct="A">A) 3</p>
+      <p class="rasr" >B) 5</p>
+      <p class="rasr" >C) 7</p>
+      <p class="rasr" >D) 4</p>
+      <button class="verifca">✔ Verifica</button>
+      <div class="linie"></div>
+      </div>
+
+      <h2 class="aleg">3. Asociați noțiunile din coloana A cu cele din coloana B:</h2>
+      <div class="cutie2">
+        <div class="coloane">
+          <h3 class="coloaneenume">Coloana A</h3>
+          <div class="scris2">
+            <p class="optiuni" >1.Humerus<input type="text" id="match1" class="match-box" placeholder="Ex: B"></p>
+            <p class="optiuni">2.Stern<input type="text" id="match2" class="match-box" placeholder="Ex: B"></p>
+            <p class="optiuni">3.Tibie<input type="text" id="match3" class="match-box" placeholder="Ex: B"></p>
+            <p class="optiuni">4.Mandibula<input type="text" id="match4" class="match-box" placeholder="Ex: B"></p>
+          </div>
+        </div>
+        <div class="coloane">
+          <h3 class="coloanenume">Coloana B</h3>
+          <div class="scris2">
+            <p class="optiuni">a.Oase lungi</p>
+            <p class="optiuni">b.Oase late</p>
+            <p class="optiuni">c.Oase lungi</p>
+            <p class="optiuni">d.Oase nepereche</p>
+          </div>
+        </div>
+      </div>
+        <button class="check-btn" onclick="checkMatching1()">✔ verifica</button>
+      <div class="linie"></div>
+     <div class="cuti1">
+      <h2 class="aleg">4. Alegeți răspunsul corect:</h2>
+      <p class="intrebare">Ce os se află în tendonul cvadricepsului femural?</p>
+      <p class="rasr" >A) Rotula</p>
+      <p class="rasr" data-correct="B">B) Humerus</p>
+      <p class="rasr" >C) Tibia</p>
+      <p class="rasr" >D) Sternul</p>
+      <button class="verifca">✔ Verifica</button>
+      <div class="linie"></div>
+     </div>
+     <div class="cuti1">
+      <h2 class="aleg">5. Alegeți răspunsul corect:</h2>
+      <p class="intrebare">Cum se numesc vertebrele din regiunea lombară?</p>
+      <p class="rasr" data-correct="A">A) Cervicale</p>
+      <p class="rasr" >B) Toracale</p>
+      <p class="rasr" >C) Sacrale</p>
+      <p class="rasr" >D) Lombare</p>
+      <button class="verifca">✔ Verifica</button>
+      <div class="linie"></div>
+        </div>
+        <div class="cuti1">
+      <h2 class="aleg">6. Alegeți răspunsul corect:</h2>
+      <p class="intrebare">Ce oase se află în scheletul brațului?</p>
+      <p class="rasr" data-correct="A">A) Humerus</p>
+      <p class="rasr" >B) Radius</p>
+      <p class="rasr" >C) Ulna</p>
+      <p class="rasr" >D) Toate cele de mai sus</p>
+      <button class="verifca">✔ Verifica</button>
+      <div class="linie"></div>
+    </div>
+    <div class="cuti1">
+      <h2 class="aleg">7. Alegeți răspunsul corect:</h2>
+      <p class="intrebare">Câte falange are degetul mare?</p>
+      <p class="rasr" data-correct="A">A) 2</p>
+      <p class="rasr" >B) 3</p>
+      <p class="rasr" >C) 4</p>
+      <p class="rasr" >D) 5</p>
+      <button class="verifca">✔ Verifica</button>
+      <div class="linie"></div>
+     </div>
+      <h2 class="aleg">8. Asociați noțiunile din coloana A cu cele din coloana B:</h2>
+      <div class="cutie2">
+        <div class="coloane">
+          <h3 class="coloanenume">Coloana A</h3>
+          <div class="coloane-content">
+            <p class="optiuni">1.Maxilar<input type="text" id="match5" class="match-box" placeholder="Ex: B"></p>
+            <p class="optiuni">2.Femur<input type="text" id="match6" class="match-box" placeholder="Ex: B"></p>
+            <p class="optiuni">3.Vomer<input type="text" id="match7" class="match-box" placeholder="Ex: B"></p>
+            <p class="optiuni">4.Parietal<input type="text" id="match8" class="match-box" placeholder="Ex: B"></p>
+          </div>
+        </div>
+        <div class="coloane">
+          <h3 class="coloane-title">Coloana B</h3>
+          <div class="coloane-content">
+            <p class="optiuni">a.Viscerocraniu</p>
+            <p class="optiuni">b.Os lung</p>
+            <p class="optiuni">c.Os nepereche</p>
+            <p class="optiuni">d.Neurocraniu</p>
+          </div>
+        </div>
+      </div><button class="check-btn" onclick="checkMatching2()">✔ verifica</button>
+      <div class="linie"></div>
+  
+      <div class="cuti1">
+      <h2 class="aleg">9. Alegeți răspunsul corect:</h2>
+      <p class="intrebare">Ce perechi de coaste se articulează direct cu sternul?</p>
+      <p class="rasr" data-correct="A">A) Primele 7 perechi</p>
+      <p class="rasr" >B) Ultimele 2 perechi</p>
+      <p class="rasr" >C) Perechile VIII, IX, X</p>
+      <p class="rasr" >D) Niciuna</p>
+      <button class="verifca">✔ Verifica</button>
+      <div class="linie"></div>
+    </div>
+     <div class="cuti1">
+      <h2 class="aleg">10. Alegeți răspunsul corect:</h2>
+      <p class="intrebare">Cum se numesc oasele din scheletul mâinii?</p>
+      <p class="rasr" data-correct="A">A) Carpiene, metacarpiene, falange</p>
+      <p class="rasr" >B) Femur, tibie, fibulă</p>
+      <p class="rasr" >C) Radius, ulna, humerus</p>
+      <p class="rasr" >D) Stern, claviculă, scapula</p>
+      <button class="verifca">✔ Verifica</button>
+    </div>
+    </div>
+  </div>
+
+  <script src="scripthub.js"></script>
+  <script src="scriptexerciti.js"></script>
+</body>
+</html>

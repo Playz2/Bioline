@@ -1,0 +1,272 @@
+
+body {
+    background-color: rgb(15, 38, 108);
+    color: #ffffff;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  overflow-x: hidden;
+  font-family: "inter", sans-serif;
+}
+.header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: transparent;
+    color: white;
+    padding: 20px 25px 5px;
+  }
+  
+  .hamburger {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 5px;
+  }
+  
+  .hamburger span {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    border-radius: 5px;
+    transition: all background-color 0.8s ease-in-out;
+    cursor: pointer;
+  }
+
+  .hamburger:hover{
+    background-color: #000000;
+    opacity: 40%;
+  }
+  .hamburger:active{
+    background-color: #5a1010;
+  }
+
+  .menu {
+    position: relative;
+    background-color: #444;
+    color: white;
+    padding: 50px 20px;
+    transform: translateY(-100%);
+    opacity: 0;
+    transition: transform 0.5s ease, opacity 0.5s ease; 
+  }
+  
+  .menu.slide-down {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  
+  .menu-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu-links li {
+    margin: 10px 0;
+  }
+  
+  .menu-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 10px;
+    display: block;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+
+  .menu-links a:hover {
+    background-color: #555;
+  }
+  .sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 250px;
+    background-color: rgb(224, 224, 224);
+    overflow: auto;
+    padding-top: 10px;
+}
+
+.sidebar a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #000000;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.sidebar a:hover {
+    color: white;
+    background-color: #444;
+}
+
+.sidebar h2 {
+    color: #000000;
+    padding-left: 35px;
+}
+
+.capitol {
+    margin-bottom: 10px;
+}
+
+.capitol-btn {
+    width: 100%;
+    background-color: #ccc;
+    border: none;
+    padding: 10px;
+    text-align: left;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.capitol-btn:hover {
+    background-color: #bbb;
+}
+
+.lectii {
+    display: none;
+    padding-left: 20px;
+}
+
+.lectii a {
+    padding: 8px 10px;
+    display: block;
+}
+.cutietitlu{
+  position:absolute;
+  width:1920px;
+  height:150px;
+  background-color:rgb(217,217,217);
+  left:250px;
+}
+h1{
+    position: relative;
+    left: 300px;
+    font-size: 3.5rem;
+    margin-top: 20px;
+}
+.cutie1{
+    position: relative;
+    margin-left: 16.3%;
+    max-width: 600px;
+    max-height: 500px;
+    background-color: #bbb;
+    color: #000000;
+    padding: 10px;
+}
+.cutie1 p{
+    font-size: 1.7rem;
+}
+.cutie2{
+    position: relative;
+    margin-left: 16.3%;
+    max-width: 600px;
+    max-height: 500px;
+    background-color: transparent;
+    color: #000000;
+    padding: 10px;
+}
+.cutie2 h2{
+    font-size: 2.5rem;
+    color: #ffffff;
+}
+.cutie2 p{
+    font-size: 1.7rem;
+    color: #ffffff;
+}
+.cutie3{
+  position: relative;
+    margin-left: 16.3%;
+    max-width: 600px;
+    max-height: 500px;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px;
+   
+
+}
+.cutie3 p{
+  font-size: 1.7rem;
+  color: #161616;
+}
+
+.cutie4{
+    position: relative;
+    margin-top: 40px;
+    margin-left: 16.3%;
+    max-width: 600px;
+    max-height: 500px;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px;
+}
+
+.cutie4 h2{
+    font-size: 1.7rem;
+    color: #161616;
+
+}
+.cutie4 p{
+    font-size: 2.0rem;
+    color: #161616;
+}
+.cutie5{
+  position: relative;
+  margin-top: 40px;
+  margin-left: 16.3%;
+  max-width: 600px;
+  max-height: 500px;
+  background-color: rgb(255, 255, 255);
+  color: #000000;
+  padding: 10px;
+ 
+}
+.cutie5 h2{
+  font-size: 1.7rem;
+    color: #161616;
+}
+.cutie5 p{
+  font-size: 1.7rem;
+    color: #161616;
+}
+.cutie6 {
+  position: relative;
+  margin-top: 40px;
+  margin-left: 16.3%;
+  max-width: 600px;
+  max-height: 500px;
+  background-color: #ffffff;
+  color: #000000;
+  padding: 10px;
+}
+.cutie6 h2{
+  font-size: 1.7rem;
+    color: #161616;
+}
+.cutie6 p{
+  font-size: 1.7rem;
+  color: #161616;
+}
+.cutie7 {
+  position: relative;
+  left:950px;
+  bottom: 360px;
+  max-width: 600px;
+  max-height: 500px;
+  background-color: #ffffff;
+  color: #000000;
+  padding-top: 95px;
+  padding-bottom: 40px;
+  padding-left: 20px;
+}
+
+.cutie7 p{
+  position: relative;
+  bottom: 50px;
+  font-size: 1.7rem;
+  color: #161616;
+}

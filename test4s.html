@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=`, initial-scale=1.0">
+    <title>bioline</title>
+    <link rel="stylesheet" href="test4s.css">
+</head>
+<body>
+    <header class="header">
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+    <img class="back" src="GRADIENT-WALLPAPER-4k.png" alt="back">  
+    <div class="fixed">  
+    <div class="gradi"></div>
+    <a href="exerciti.html"><button id="backButton" class="back-btn">⬅ Înapoi</button></a>
+    <video id="ske" class="ske"  src="skele.mp4" autoplay loop muted playsinline></video>
+    <button id="videoToggle" class="video-btn">⏸ Pause</button>    
+
+    <div id="timer" class="timer">⏳ 10:00</div>
+    </div>
+
+  <div class="test">
+    <div class="cutie">
+        <div class="cuti1">
+      <h2 class="aleg">1. Alegeți răspunsul corect:</h2>
+      <p class="intrebare">Ce rol au oasele în susținerea și locomoția corpului?</p>
+      <p class="rasr" data-correct="A">A) Formează articulații rigide</p>
+      <p class="rasr" >B) Acționează ca pârghii pentru mușchi</p>
+      <p class="rasr" >C) Nu au un rol direct în mișcare</p>
+      <p class="rasr" >D) Protejează doar organele vitale</p>
+      <button class="verifca">✔ Verifica</button>
+      <div class="linie"></div>
+        </div>
+        <div class="cuti1">
+      <h2 class="aleg">2. Alegeți răspunsul corect:</h2>
+      <p class="intrebare">Care dintre următoarele structuri osoase protejează encefalul?</p>
+      <p class="rasr" data-correct="A">A) Cervicală și lombară</p>
+      <p class="rasr" >B) Toracală și sacrală</p>
+      <p class="rasr" >C) Coccigiană</p>
+      <p class="rasr" >D) Toate regiunile</p>
+      <button class="verifca">✔ Verifica</button>
+      <div class="linie"></div>
+      </div>
+
+      <h2 class="aleg">3. Asociați noțiunile din coloana A cu cele din coloana B:</h2>
+      <div class="cutie2">
+        <div class="coloane">
+          <h3 class="coloaneenume">Coloana A</h3>
+          <div class="scris2">
+            <p class="optiuni">1.Cutia craniană<input type="text" id="match1" class="match-box" placeholder="Ex: B"></p>
+            <p class="optiuni">2.Cutia toracică<input type="text" id="match2" class="match-box" placeholder="Ex: B"></p>
+            <p class="optiuni">3.Canalul rahidian<input type="text" id="match3" class="match-box" placeholder="Ex: B"></p>
+            <p class="optiuni">4.Bazinul osos<input type="text" id="match4" class="match-box" placeholder="Ex: B"></p>
+          </div>
+        </div>
+        <div class="coloane">
+          <h3 class="coloanenume">Coloana B</h3>
+          <div class="scris2">
+            <p class="optiuni">a.Protejează encefalul</p>
+            <p class="optiuni">b.Protejează inima și plămânii</p>
+            <p class="optiuni">c.Protejează măduva spinării</p>
+            <p class="optiuni">d.Protejează organele pelvine</p>
+          </div>
+        </div>
+      </div>
+        <button class="check-btn" onclick="checkMatching1()">✔ verifica</button>
+      <div class="linie"></div>
+     <div class="cuti1">
+      <h2 class="aleg">4. Alegeți răspunsul corect:</h2>
+      <p class="intrebare">Ce tip de pârghie formează articulația craniului cu coloana vertebrală?</p>
+      <p class="rasr" >A) Pârghie de ordinul I</p>
+      <p class="rasr" data-correct="B">B) Pârghie de ordinul II</p>
+      <p class="rasr" >C) Pârghie de ordinul III</p>
+      <p class="rasr" >D) Nu este o pârghie</p>
+      <button class="verifca">✔ Verifica</button>
+      <div class="linie"></div>
+     </div>
+     <div class="cuti1">
+      <h2 class="aleg">5. Alegeți răspunsul corect:</h2>
+      <p class="intrebare">Ce rol au oasele în metabolismul mineralelor?</p>
+      <p class="rasr" data-correct="A">A) Nu au nicio contribuție</p>
+      <p class="rasr" >B) Depozitează și eliberează calciu și fosfor</p>
+      <p class="rasr" >C) Asigură doar protecție mecanică</p>
+      <p class="rasr" >D) Sunt responsabile doar de hematopoieză</p>
+      <button class="verifca">✔ Verifica</button>
+      <div class="linie"></div>
+        </div>
+        <div class="cuti1">
+      <h2 class="aleg">6. Alegeți răspunsul corect:</h2>
+      <p class="intrebare">Unde se află măduva hematogenă la adult?</p>
+      <p class="rasr" data-correct="A">A) În toate oasele</p>
+      <p class="rasr" >B) În oasele lungi</p>
+      <p class="rasr" >C) În oasele late</p>
+      <p class="rasr" >D) În toate articulațiile</p>
+      <button class="verifca">✔ Verifica</button>
+      <div class="linie"></div>
+    </div>
+    <div class="cuti1">
+      <h2 class="aleg">7. Alegeți răspunsul corect:</h2>
+      <p class="intrebare">Cum ajută oasele la protecția împotriva toxinelor?</p>
+      <p class="rasr" data-correct="A">A) Le descompun rapid</p>
+      <p class="rasr" >B) Le rețin și le eliberează treptat</p>
+      <p class="rasr" >C) Nu au nicio influență</p>
+      <p class="rasr" >D) Le neutralizează complet</p>
+      <button class="verifca">✔ Verifica</button>
+      <div class="linie"></div>
+     </div>
+      <h2 class="aleg">8. Asociați noțiunile din coloana A cu cele din coloana B:</h2>
+      <div class="cutie2">
+        <div class="coloane">
+          <h3 class="coloanenume">Coloana A</h3>
+          <div class="coloane-content">
+            <p class="optiuni">1.Oasele lungi<input type="text" id="match5" class="match-box" placeholder="Ex: B"></p>
+            <p class="optiuni">2.Oasele late<input type="text" id="match6" class="match-box" placeholder="Ex: B"></p>
+            <p class="optiuni">3.Măduva roșie<input type="text" id="match7" class="match-box" placeholder="Ex: B"></p>
+            <p class="optiuni">4.Măduva galbenă<input type="text" id="match8" class="match-box" placeholder="Ex: B"></p>
+          </div>
+        </div>
+        <div class="coloane">
+          <h3 class="coloane-title">Coloana B</h3>
+          <div class="coloane-content">
+            <p class="optiuni">a.Pârghii pentru mișcare</p>
+            <p class="optiuni">b.Sediu al hematopoiezei</p>
+            <p class="optiuni">c.Producerea celulelor sangvine</p>
+            <p class="optiuni">d.Țesut adipos de rezervă</p>
+          </div>
+        </div>
+      </div><button class="check-btn" onclick="checkMatching2()">✔ verifica</button>
+      <div class="linie"></div>
+  
+      <div class="cuti1">
+      <h2 class="aleg">9. Alegeți răspunsul corect:</h2>
+      <p class="intrebare">Ce rol are măduva osoasă la copii?</p>
+      <p class="rasr" data-correct="A">A) Produce globule roșii și albe</p>
+      <p class="rasr" >B) Depozitează grăsimi</p>
+      <p class="rasr" >C) Nu are nicio funcție</p>
+      <p class="rasr" >D)  Protejează coloana vertebrală</p>
+      <button class="verifca">✔ Verifica</button>
+      <div class="linie"></div>
+    </div>
+     <div class="cuti1">
+      <h2 class="aleg">10. Alegeți răspunsul corect:</h2>
+      <p class="intrebare">Ce mineral este esențial în compoziția osoasă?</p>
+      <p class="rasr" data-correct="A">A) Fier</p>
+      <p class="rasr" >B) Sodiu</p>
+      <p class="rasr" >C) Fosfat de calciu</p>
+      <p class="rasr" >D) Magneziu</p>
+      <button class="verifca">✔ Verifica</button>
+    </div>
+    </div>
+  </div>
+
+  <script src="scripthub.js"></script>
+  <script src="scriptexerciti.js"></script>
+</body>
+</html>

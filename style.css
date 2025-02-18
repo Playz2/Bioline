@@ -1,0 +1,482 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #4b0303;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    color: white;
+    padding: 20px 25px 5px;
+    z-index: 1;
+  }
+  
+  .logo {
+    z-index: 2;
+  }
+
+  .bioloine{
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    margin: -85px 0 0 -10px;
+    overflow: hidden;
+  }
+
+  
+  .hamburger {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 5px;
+    z-index: 2;
+  }
+  
+  .hamburger span {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    border-radius: 5px;
+    transition: all background-color 1.4s ease-in-out;
+    cursor: pointer;
+  }
+
+  .hamburger:hover{
+    background-color: #131313;
+    opacity: 40%;
+  }
+  .hamburger:active{
+    background-color: #5a1010;
+  }
+  
+  .menu {
+    position: relative;
+    background-color: #444;
+    color: white;
+    padding: 50px 20px;
+    transform: translateY(-100%); 
+    opacity: 0;
+    transition: transform 1.3s ease, opacity 1.3s ease; 
+  }
+  
+  .menu.slide-down {
+    transform: translateY(0); 
+    opacity: 1;
+  }
+  
+  .menu-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu-links li {
+    margin: 10px 0;
+  }
+  
+  .menu-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 10px;
+    display: block;
+    border-radius: 5px;
+    transition: background-color 1.3s ease;
+  }
+  
+  .menu-links a:hover {
+    background-color: #555;
+  }
+
+  .back{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 300%;
+    object-fit: cover; 
+    z-index: -1;
+  }
+  .page1{
+    z-index: 0;
+  }
+  .background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    opacity: 80% !important;
+    animation: none !important;
+    z-index: 0; 
+  }
+  .banner{
+  background-color: rgba(134, 0, 0, 1);
+  position:absolute;
+  top: 150px;
+  width: 1063px;
+  min-height: 251px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 3;
+}
+.banner h1{
+  color: rgba(240, 248, 255, 0.815);
+  font-size: 5.5rem;
+  position: relative;
+  top: 65px;
+  left: 60px;
+}
+
+.page1 h2{
+  color: rgb(196, 195, 195);
+  font-size: 2.5rem;
+  position: absolute;
+  top: 465px;
+  left: 100px;
+}
+.line{
+  background-color: rgba(219, 213, 213, 0.938);
+  position:absolute;
+  top: 530px;
+  left: 250px;
+  width: 853px;
+  min-height: 2px;
+  display: flex;
+  z-index: 5;
+}
+.page2 {
+  position: relative;
+  margin-top: 906px;
+  text-align: center;
+  z-index: 1;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.featured-section {
+  width: 599px;
+  height: 908px;
+  background-color: rgba(217, 217, 217, 1);
+  border-radius: 85px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.skelete{
+  position: relative;
+  left: 170px;
+}
+.line2{
+  background-color: rgba(70, 61, 61, 0.938);
+  position:absolute;
+  top: 60px;
+  left: 460px;
+  width: 453px;
+  min-height: 2px;
+  display: flex;
+  z-index: 2;
+}
+.page2 h1{
+  color: rgb(241, 241, 241);
+  font-size: 1.5rem;
+  position: absolute;
+  top: 40px;
+  left: 220px;
+}
+
+.line3{
+  background-color: rgba(70, 61, 61, 0.938);
+  position:absolute;
+  top: 230px;
+  right: 460px;
+  width: 453px;
+  min-height: 2px;
+  display: flex;
+  z-index: 2;
+}
+.page2 h2{
+  color: rgb(241, 241, 241);
+  font-size: 1.5rem;
+  position: absolute;
+  top: 210px;
+  right: 200px;
+}
+
+.line4{
+  background-color: rgba(70, 61, 61, 0.938);
+  position:absolute;
+  top: 350px;
+  left: 460px;
+  width: 473px;
+  min-height: 2px;
+  display: flex;
+  z-index: 2;
+}
+.page2 h3{
+  color: rgb(241, 241, 241);
+  font-size: 1.5rem;
+  position: absolute;
+  top: 330px;
+  left: 200px;
+}
+.line5{
+  background-color: rgba(94, 81, 81, 0.938);
+  position:absolute;
+  top: 460px;
+  right: 532px;
+  width: 310px;
+  min-height: 2px;
+  display: flex;
+  z-index: 2;
+  transform: rotate(23deg)
+}
+.line6{
+  background-color: rgba(70, 61, 61, 0.938);
+  position:absolute;
+  top: 630px;
+  right: 520px;
+  width: 390px;
+  min-height: 2px;
+  display: flex;
+  z-index: 2;
+  transform: rotate(-25deg)
+}
+.page2 h4{
+  color: rgb(241, 241, 241);
+  font-size: 1.5rem;
+  position: absolute;
+  top: 445px;
+  right:15px;
+}
+
+.page2 h5{
+  color: rgb(241, 241, 241);
+  font-size: 1.5rem;
+  position: absolute;
+  top: 613px;
+  right:15px;
+}
+
+
+.page2 h1:hover, .page2 h2:hover, .page2 h3:hover, .page2 h4:hover, .page2 h5:hover {
+  color: rgba(255, 153, 0, 1);
+  transform: scale(1.1);
+  transition: all 0.6s ease-in-out;
+  cursor: pointer;
+}
+
+.page3 {
+  position: relative;
+  margin-top: 350px;
+  width: 100%;
+  height: 790px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+  background-color: rgb(224, 222, 222);
+}
+.muscle{
+  position: absolute;
+  width: 1000px;
+  height: 1000px;
+  top: 2000px;
+  right: 0.0001%;
+  z-index: 4;
+}
+
+.page3 h1{
+  color: rgb(34, 34, 34);
+  font-size: 4.5rem;
+  position: absolute;
+  top: 115px;
+  left: 120px;
+}
+.page3 h2{
+  color: rgb(34, 34, 34);
+  font-size: 4.5rem;
+  position: absolute;
+  top: 215px;
+  left: 120px;
+}
+
+.line7{
+  background-color: rgba(34, 33, 33, 0.938);
+  position:absolute;
+  top: 330px;
+  left: 220px;
+  width: 633px;
+  min-height: 2px;
+  display: flex;
+  z-index: 5;
+}
+.line8{
+  background-color: rgba(34, 33, 33, 0.938);
+  position:absolute;
+  top: 360px;
+  left: 150px;
+  width: 653px;
+  min-height: 2px;
+  display: flex;
+  z-index: 5;
+}
+.pete1{
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  top: 2050px;
+  opacity: 90%;
+  z-index: 3;
+}
+.pete2{
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  top: 2130px;
+  right: 1750px;
+  z-index: 3;
+  opacity: 90%;
+  transform: rotate(20deg);
+}
+.pete3{
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  top: 2100px;
+  right: 1550px;
+  z-index: 3;
+  opacity: 90%;
+  transform: rotate(20deg);
+}
+
+.pete4{
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  top: 2050px;
+  left: 1700px;
+  opacity: 90%;
+  z-index: 3;
+}
+.pete5{
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  top: 2130px;
+  left: 1600px;
+  z-index: 3;
+  opacity: 90%;
+  transform: rotate(20deg);
+}
+.pete6{
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  top: 2100px;
+  right: 140px;
+  z-index: 3;
+  opacity: 90%;
+  transform: rotate(-20deg);
+}
+.cerc1{
+  position: absolute;
+  width: 400px;
+  height: 410px;
+  top: 2600px;
+  right: 1730px;
+  z-index: 3;
+}
+.cerc2{
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  top: 2600px;
+  right: 1300px;
+  z-index: 3;
+}
+.cerc3{
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  top: 2700px;
+  right: 200px;
+  z-index: 3;
+}
+.cerc4{
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  top: 2300px;
+  right:  1000px;
+  z-index: 3;
+}
+
+.button {
+  position: absolute;
+  top: 500px;
+  right: 1200px;
+  background-color: #ff6600; 
+  color: white; 
+  font-size: 18px;
+  font-weight: bold;
+  padding: 30px 60px;
+  border: none;
+  border-radius: 8px; 
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  z-index: 5;
+}
+
+
+.button:hover {
+  background-color: #e65c00; 
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+  transform: translateY(-2px);
+}
+
+
+.button:active {
+  background-color: #cc5200; 
+  transform: translateY(1px); 
+}
+.fade-in {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.4s ease-out, transform 02s ease-out;
+}
+
+.fade-in.show {
+  opacity: 1;
+  transform: translateY(0);
+}

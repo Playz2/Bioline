@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background: black;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: transparent;
+    color: white;
+    padding: 20px 25px 5px;
+}
+
+.hamburger {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 5px;
+}
+
+.hamburger span {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    border-radius: 5px;
+    transition: all background-color 0.8s ease-in-out;
+}
+
+.hamburger:hover {
+    opacity: 40%;
+}
+
+.embedded-website {
+    position: relative;
+    top: 50px;
+    width: 90%;
+    max-width: 1400px;
+    height: 85vh;
+    border: 1px solid white;
+    margin: auto;
+}
+
+.cutie {
+    position: absolute;
+    width: 25%;
+    max-width: 360px;
+    height: 150px;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 770px;
+    background-color: white;
+    border-radius: 15%;
+    text-align: center;
+}
+
+.cutie h1 {
+    margin-top: 80px;
+    font-size: 1.5rem;
+    color: rgb(83, 0, 109);
+}
+
+.back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.cutie1 {
+    position: relative;
+    bottom:684px;
+    left: 85.9%;
+    transform: translateX(-50%);
+    background: white;
+    padding: 20px;
+    width: 90%;
+    max-width: 500px;
+    height: auto;
+    text-align: center;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.623);
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    resize: none;
+}
+
+button {
+    background: linear-gradient(135deg, #7edaff, #846eff);
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    outline: none;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: linear-gradient(105deg, #69afff, #ff65ff52);
+    transform: scale(1.05);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.output {
+    margin-top: 15px;
+    padding: 10px;
+    background: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: left;
+    min-height: 50px;
+    word-wrap: break-word;
+}
+
+.copy-btn {
+    background: #28a745;
+    margin-left: 10px;
+}
+
+.copy-btn:hover {
+    background: #218838;
+}
+
+@media (max-width: 768px) {
+    .header {
+        justify-content: center;
+    }
+
+    .embedded-website {
+        height: 50vh;
+    }
+
+    .cutie {
+        width: 90%;
+        max-width: 300px;
+        bottom: 80vh;
+    }
+
+    .cutie1 {
+        width: 90%;
+        max-width: 400px;
+    }
+
+    button {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .cutie {
+        bottom: 70vh;
+    }
+
+    .cutie1 {
+        width: 100%;
+        max-width: 350px;
+        padding: 15px;
+    }
+
+    .output {
+        font-size: 14px;
+    }
+}
