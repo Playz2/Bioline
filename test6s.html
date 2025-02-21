@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=`, initial-scale=1.0">
+    <title>bioline</title>
+    <link rel="stylesheet" href="test1s.css">
+</head>
+<body>
+    <header class="header">
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+    <img class="back" src="GRADIENT-WALLPAPER-4k.png" alt="back">  
+    <div class="fixed">  
+    <div class="gradi"></div>
+    <a href="exerciti.html"><button id="backButton" class="back-btn">⬅ Înapoi</button></a>
+    <video id="ske" class="ske"  src="skele.mp4" autoplay loop muted playsinline></video>
+    <button id="videoToggle" class="video-btn">⏸ Pause</button>    
+
+    <div id="timer" class="timer">⏳ 10:00</div>
+    </div>
+
+  <div class="test">
+    <div class="cutie">
+        <div class="cuti1">
+      <h2 class="aleg">1. Alegeți răspunsul corect:</h2>
+      <p class="intrebare">Care este rolul principal al oaselor în aparatul locomotor?</p>
+      <p class="rasr" data-correct="A">A) Depozitarea mineralelor</p>
+      <p class="rasr" >B) Acționează ca pârghii pentru mușchi</p>
+      <p class="rasr" >C) Producția de celule sangvine</p>
+      <p class="rasr" >D) Reținerea substanțelor toxice</p>
+      <button class="verifca">✔ Verifica</button>
+      <div class="linie"></div>
+        </div>
+        <div class="cuti1">
+      <h2 class="aleg">2. Alegeți răspunsul corect:</h2>
+      <p class="intrebare">Ce tip de pârghie este formată de articulația dintre osul 
+        brațului și cele ale antebrațului?</p>
+      <p class="rasr" data-correct="A">A) Pârghie de ordinul I</p>
+      <p class="rasr" >B) Pârghie de ordinul II</p>
+      <p class="rasr" >C) Pârghie de ordinul III</p>
+      <p class="rasr" >D) Niciun tip</p>
+      <button class="verifca">✔ Verifica</button>
+      <div class="linie"></div>
+      </div>
+
+      <h2 class="aleg">3. Asociați noțiunile din coloana A cu cele din coloana B:</h2>
+      <div class="cutie2">
+        <div class="coloane">
+          <h3 class="coloaneenume">Coloana A</h3>
+          <div class="scris2">
+            <p class="optiuni" >1.Cutia craniană<input type="text" id="match1" class="match-box" placeholder="Ex: B"></p>
+            <p class="optiuni">2.Canalul rahidian<input type="text" id="match2" class="match-box" placeholder="Ex: B"></p>
+            <p class="optiuni">3.Cutia toracică<input type="text" id="match3" class="match-box" placeholder="Ex: B"></p>
+            <p class="optiuni">4.Bazinul osos<input type="text" id="match4" class="match-box" placeholder="Ex: B"></p>
+          </div>
+        </div>
+        <div class="coloane">
+          <h3 class="coloanenume">Coloana B</h3>
+          <div class="scris2">
+            <p class="optiuni">a.Protejează inima și 
+                plămânii</p>
+            <p class="optiuni">b.Protejează măduva 
+                spinării</p>
+            <p class="optiuni">c.Protejează encefalul</p>
+            <p class="optiuni">d.Protejează organele
+                pelvine</p>
+          </div>
+        </div>
+      </div>
+        <button class="check-btn" onclick="checkMatching1()">✔ verifica</button>
+      <div class="linie"></div>
+     <div class="cuti1">
+      <h2 class="aleg">4. Alegeți răspunsul corect:</h2>
+      <p class="intrebare">Care dintre următoarele structuri nu face parte dintr-o articulație mobilă?</p>
+      <p class="rasr" >A) Sincondroză</p>
+      <p class="rasr" data-correct="B">B) Artrodie</p>
+      <p class="rasr" >C) Amfiartroză</p>
+      <p class="rasr" >D) Sinostoze</p>
+      <button class="verifca">✔ Verifica</button>
+      <div class="linie"></div>
+     </div>
+     <div class="cuti1">
+      <h2 class="aleg">5. Alegeți răspunsul corect:</h2>
+      <p class="intrebare">Ce structură anatomică tapetează interiorul capsulei articulare și secretă lichid sinovial?</p>
+      <p class="rasr" data-correct="A">A) Membrana sinovială</p>
+      <p class="rasr" >B) Cartilajul articular</p>
+      <p class="rasr" >C) Cavitatea articulară</p>
+      <p class="rasr" >D) Ligamentele</p>
+      <button class="verifca">✔ Verifica</button>
+      <div class="linie"></div>
+        </div>
+        <div class="cuti1">
+      <h2 class="aleg">6. Găsiți răspunsul greșit:</h2>
+      <p class="intrebare"></p>
+      <p class="rasr" data-correct="A">A) Sunt articulații sinoviale</p>
+      <p class="rasr" >B) Sunt complet imobile</p>
+      <p class="rasr" >C) Permit mișcări ample</p>
+      <p class="rasr" >D) Conțin lichid sinovial</p>
+      <button class="verifca">✔ Verifica</button>
+      <div class="linie"></div>
+    </div>
+    <div class="cuti1">
+      <h2 class="aleg">7. Alegeți răspunsul corect:</h2>
+      <p class="intrebare">Care este particularitatea metabolică a țesutului osos?</p>
+      <p class="rasr" data-correct="A">A) Are o mare afinitate pentru sărurile minerale</p>
+      <p class="rasr" >B) Conține doar colagen și apă</p>
+      <p class="rasr" >C) Nu suferă modificări chimice</p>
+      <p class="rasr" >D) Este alcătuit exclusiv din hidroxiapatită</p>
+      <button class="verifca">✔ Verifica</button>
+      <div class="linie"></div>
+     </div>
+      <h2 class="aleg">8. Asociați noțiunile din coloana A cu cele din coloana B:</h2>
+      <div class="cutie2">
+        <div class="coloane">
+          <h3 class="coloanenume">Coloana A</h3>
+          <div class="coloane-content">
+            <p class="optiuni">1.Cavitatea articulară<input type="text" id="match5" class="match-box" placeholder="Ex: B"></p>
+            <p class="optiuni">2.Ligamentele<input type="text" id="match6" class="match-box" placeholder="Ex: B"></p>
+            <p class="optiuni">3.Cartilajul articular<input type="text" id="match7" class="match-box" placeholder="Ex: B"></p>
+            <p class="optiuni">4.Membrana sinovială<input type="text" id="match8" class="match-box" placeholder="Ex: B"></p>
+          </div>
+        </div>
+        <div class="coloane">
+          <h3 class="coloane-title">Coloana B</h3>
+          <div class="coloane-content">
+            <p class="optiuni">a.Leagă oasele între ele</p>
+            <p class="optiuni">b.Reduce frecarea între oase</p>
+            <p class="optiuni">c.Conține lichid sinovial</p>
+            <p class="optiuni">d.Produce lichid sinovial</p>
+          </div>
+        </div>
+      </div><button class="check-btn" onclick="checkMatching2()">✔ verifica</button>
+      <div class="linie"></div>
+  
+      <div class="cuti1">
+      <h2 class="aleg">9. Alegeți răspunsul corect:</h2>
+      <p class="intrebare">Ce rol are lichidul sinovial în articulațiile mobile?</p>
+      <p class="rasr" data-correct="A">A) Permite o fixare mai bună a oaselor</p>
+      <p class="rasr" >B) Reduce frecarea și asigură lubrifierea</p>
+      <p class="rasr" >C) Face articulația mai rigidă</p>
+      <p class="rasr" >D) Favorizează osificarea articulației</p>
+      <button class="verifca">✔ Verifica</button>
+      <div class="linie"></div>
+    </div>
+     <div class="cuti1">
+      <h2 class="aleg">10. Alegeți răspunsul corect:</h2>
+      <p class="intrebare">Care dintre următoarele NU este un tip de sinartroză?</p>
+      <p class="rasr" data-correct="A">A) Sindesmoză</p>
+      <p class="rasr" >B) Artrodie</p>
+      <p class="rasr" >C) Sincondroză</p>
+      <p class="rasr" >D) Sinostoză</p>
+      <button class="verifca">✔ Verifica</button>
+    </div>
+    </div>
+  </div>
+
+  <script src="scripthub.js"></script>
+  <script src="scriptexerciti.js"></script>
+</body>
+</html>

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=`, initial-scale=1.0">
+    <title>bioline</title>
+    <link rel="stylesheet" href="test1s.css">
+</head>
+<body>
+    <header class="header">
+        <div class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+    <img class="back" src="GRADIENT-WALLPAPER-4k.png" alt="back">  
+    <div class="fixed">  
+    <div class="gradi"></div>
+    <a href="exerciti.html"><button id="backButton" class="back-btn">⬅ Înapoi</button></a>
+    <video id="ske" class="ske"  src="skele.mp4" autoplay loop muted playsinline></video>
+    <button id="videoToggle" class="video-btn">⏸ Pause</button>    
+
+    <div id="timer" class="timer">⏳ 10:00</div>
+    </div>
+
+  <div class="test">
+    <div class="cutie">
+        <div class="cuti1">
+      <h2 class="aleg">1. Alegeți răspunsul corect:</h2>
+      <p class="intrebare">Ce sunt articulațiile?</p>
+      <p class="rasr" data-correct="A">A) Organe care produc celule sangvine</p>
+      <p class="rasr" >B) Structuri care leagă oasele și permit mișcarea</p>
+      <p class="rasr" >C) Țesuturi care depozitează calciu</p>
+      <p class="rasr" >D) Cavități pline cu lichid</p>
+      <button class="verifca">✔ Verifica</button>
+      <div class="linie"></div>
+        </div>
+        <div class="cuti1">
+      <h2 class="aleg">2. Alegeți răspunsul corect:</h2>
+      <p class="intrebare">Care dintre următoarele articulații este imobilă?</p>
+      <p class="rasr" data-correct="A">A) Articulația genunchiului</p>
+      <p class="rasr" >B) Suturile craniene</p>
+      <p class="rasr" >C) Articulația șoldului</p>
+      <p class="rasr" >D) Articulația umărului</p>
+      <button class="verifca">✔ Verifica</button>
+      <div class="linie"></div>
+      </div>
+
+      <h2 class="aleg">3. Asociați noțiunile din coloana A cu cele din coloana B:</h2>
+      <div class="cutie2">
+        <div class="coloane">
+          <h3 class="coloaneenume">Coloana A</h3>
+          <div class="scris2">
+            <p class="optiuni" >1.Sindesmoze<input type="text" id="match1" class="match-box" placeholder="Ex: B"></p>
+            <p class="optiuni">2.Sincondroze<input type="text" id="match2" class="match-box" placeholder="Ex: B"></p>
+            <p class="optiuni">3.Sinostoze<input type="text" id="match3" class="match-box" placeholder="Ex: B"></p>
+            <p class="optiuni">4.Artrodiile<input type="text" id="match4" class="match-box" placeholder="Ex: B"></p>
+          </div>
+        </div>
+        <div class="coloane">
+          <h3 class="coloanenume">Coloana B</h3>
+          <div class="scris2">
+            <p class="optiuni">a.Țesut cartilaginos</p>
+            <p class="optiuni">b.Țesut fibros</p>
+            <p class="optiuni">c.Țesut osos</p>
+            <p class="optiuni">d.Articulații mobile</p>
+          </div>
+        </div>
+      </div>
+        <button class="check-btn" onclick="checkMatching1()">✔ verifica</button>
+      <div class="linie"></div>
+     <div class="cuti1">
+      <h2 class="aleg">4. Alegeți răspunsul corect:</h2>
+      <p class="intrebare">Care dintre următoarele structuri nu face parte dintr-o articulație mobilă?</p>
+      <p class="rasr" >A) Ligamentele articulare</p>
+      <p class="rasr" data-correct="B">B) Ligamentele articulare</p>
+      <p class="rasr" >C) Membrana sinovială</p>
+      <p class="rasr" >D) Discurile intervertebrale</p>
+      <button class="verifca">✔ Verifica</button>
+      <div class="linie"></div>
+     </div>
+     <div class="cuti1">
+      <h2 class="aleg">5. Alegeți răspunsul corect:</h2>
+      <p class="intrebare">Ce oase alcătuiesc viscerocraniul?</p>
+      <p class="rasr" data-correct="A">A) Articulații fixe</p>
+      <p class="rasr" >B) Articulații semimobile</p>
+      <p class="rasr" >C) Articulații complet mobile</p>
+      <p class="rasr" >D) Articulații sinoviale</p>
+      <button class="verifca">✔ Verifica</button>
+      <div class="linie"></div>
+        </div>
+        <div class="cuti1">
+      <h2 class="aleg">6. Alegeți răspunsul corect:</h2>
+      <p class="intrebare">Care dintre următoarele articulații este sinovială?</p>
+      <p class="rasr" data-correct="A">A) Suturile craniene</p>
+      <p class="rasr" >B) Articulația genunchiului</p>
+      <p class="rasr" >C) Simfiza pubiană</p>
+      <p class="rasr" >D) Articulațiile dintre corpurile vertebrale</p>
+      <button class="verifca">✔ Verifica</button>
+      <div class="linie"></div>
+    </div>
+    <div class="cuti1">
+      <h2 class="aleg">7. Alegeți răspunsul corect:</h2>
+      <p class="intrebare">Ce rol are membrana sinovială?</p>
+      <p class="rasr" data-correct="A">A) Produce lichid sinovial pentru lubrifiere</p>
+      <p class="rasr" >B) Depozitează calciu</p>
+      <p class="rasr" >C) Leagă oasele între ele</p>
+      <p class="rasr" >D) Oferă suport pentru mușchi</p>
+      <button class="verifca">✔ Verifica</button>
+      <div class="linie"></div>
+     </div>
+      <h2 class="aleg">8. Asociați noțiunile din coloana A cu cele din coloana B:</h2>
+      <div class="cutie2">
+        <div class="coloane">
+          <h3 class="coloanenume">Coloana A</h3>
+          <div class="coloane-content">
+            <p class="optiuni">1.Diartroze<input type="text" id="match5" class="match-box" placeholder="Ex: B"></p>
+            <p class="optiuni">2.Sinartroze<input type="text" id="match6" class="match-box" placeholder="Ex: B"></p>
+            <p class="optiuni">3.Amfiartroze<input type="text" id="match7" class="match-box" placeholder="Ex: B"></p>
+            <p class="optiuni">4.Articulații sinoviale<input type="text" id="match8" class="match-box" placeholder="Ex: B"></p>
+          </div>
+        </div>
+        <div class="coloane">
+          <h3 class="coloane-title">Coloana B</h3>
+          <div class="coloane-content">
+            <p class="optiuni">a.Articulații semimobile</p>
+            <p class="optiuni">b.Articulații complet mobilei</p>
+            <p class="optiuni">c.Articulații fixe</p>
+            <p class="optiuni">d.Prezintă lichid sinovial</p>
+          </div>
+        </div>
+      </div><button class="check-btn" onclick="checkMatching2()">✔ verifica</button>
+      <div class="linie"></div>
+  
+      <div class="cuti1">
+      <h2 class="aleg">9. Alegeți răspunsul corect:</h2>
+      <p class="intrebare">Ce element al unei articulații sinoviale asigură stabilitate?</p>
+      <p class="rasr" data-correct="A">A) Produce globule roșii și albe</p>
+      <p class="rasr" >B) Capsula articulară</p>
+      <p class="rasr" >C) Măduva osoasă</p>
+      <p class="rasr" >D) Țesutul adipos</p>
+      <button class="verifca">✔ Verifica</button>
+      <div class="linie"></div>
+    </div>
+     <div class="cuti1">
+      <h2 class="aleg">10. Alegeți răspunsul corect:</h2>
+      <p class="intrebare">Ce tip de articulație permite cele mai multe mișcări?</p>
+      <p class="rasr" data-correct="A">A) Sinartrozele</p>
+      <p class="rasr" >B) Amfiartrozele</p>
+      <p class="rasr" >C) Artrodiile</p>
+      <p class="rasr" >D) Sinostozeleh</p>
+      <button class="verifca">✔ Verifica</button>
+    </div>
+    </div>
+  </div>
+
+  <script src="scripthub.js"></script>
+  <script src="scriptexerciti.js"></script>
+</body>
+</html>

@@ -57,7 +57,7 @@ body {
     height: 150px;
     left: 50%;
     transform: translateX(-50%);
-    bottom: 770px;
+    bottom: 830px;
     background-color: white;
     border-radius: 15%;
     text-align: center;
@@ -81,7 +81,7 @@ body {
 
 .cutie1 {
     position: relative;
-    bottom:684px;
+    bottom:737px;
     left: 85.9%;
     transform: translateX(-50%);
     background: white;
