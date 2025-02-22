@@ -174,7 +174,8 @@ h1{
 }
 .cerc {
   position: relative;
-  top: 35px;
+  bottom: 40px;
+  right: 100px;
   background-color: #E5971C;
   border-radius: 50%;
   align-self: center;
@@ -224,7 +225,8 @@ h1{
 }
 .cerc1{
   position: relative;
-  top: 35px;
+  bottom: 40px;
+  right: 100px;
   background-color: #E5971C;
   border-radius: 50%;
   align-self: center;
@@ -273,7 +275,8 @@ h1{
 }
 .cerc2{
   position: relative;
-  top: 35px;
+  bottom: 40px;
+  right: 100px;
   background-color: #E5971C;
   border-radius: 50%;
   align-self: center;
@@ -323,7 +326,8 @@ h1{
 }
 .cerc3{
   position: relative;
-  top: 35px;
+  bottom: 40px;
+  right: 100px;
   background-color: #E5971C;
   border-radius: 50%;
   align-self: center;
@@ -431,4 +435,40 @@ h3{
   height: 240px;
   border-radius: 50%;
   z-index: 2;
+}
+.img2{
+  position: absolute;
+  bottom: 220px;
+  left: 10px;
+  height: 200px;
+  width: 320px;
+  box-shadow: #000000 0px 0px 10px;
+  z-index: 1;
+}
+.img3{
+  position: absolute;
+  bottom: 226px;
+  left: 10px;
+  height: 200px;
+  width: 320px;
+  box-shadow: #000000 0px 0px 10px;
+  z-index: 1;
+}
+.img4{
+  position: absolute;
+  bottom: 226px;
+  left: 10px;
+  height: 200px;
+  width: 320px;
+  box-shadow: #000000 0px 0px 10px;
+  z-index: 1;
+}
+.img5{
+  position: absolute;
+  bottom: 226px;
+  left: 10px;
+  height: 200px;
+  width: 320px;
+  box-shadow: #000000 0px 0px 10px;
+  z-index: 1;
 }
