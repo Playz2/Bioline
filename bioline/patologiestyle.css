@@ -21,6 +21,7 @@ body {
     flex-direction: column;
     cursor: pointer;
     gap: 5px;
+    z-index: 4;
   }
   
   .hamburger span {
@@ -174,6 +175,7 @@ top:465px;
     height:959px;
     left:1100px;
     bottom:70px;
+
 }
 .cutie2{
     position:relative;

@@ -341,5 +341,134 @@ height:450px;
   bottom:700px;
   font-size:50px;
   font-weight:700;
-  max-width:1500px;
+  max-width:1350px;
 }
+.cutiepz7{
+  background-color: #bbb;
+  width:700px;
+  height:550px;
+  position:relative;
+  left:700px;
+  bottom:700px;
+  border-radius:15%;  
+  z-index: 1;
+}
+.poza7{
+  position: relative;
+  left:100px;
+  bottom:-90px;
+  z-index: 40;
+  width:500px;
+  height:400px;
+  border-radius:15%;
+  }
+  .titlucutie5 {
+    position: relative;
+    margin-left: 13.3%;
+    background-color:rgb(217,217,217);
+    color: #000000;
+    padding: 10px;
+    font-size: 1.2rem;
+    bottom:550px;
+  }
+  .titlucutie5 h1 {
+    font-size: 5.5rem;
+    margin: 0;
+    text-align: center;
+  }
+  .p7{
+    position:relative;
+    left:350px;
+    bottom:450px;
+    font-size:35px;
+    font-weight:700;
+    max-width:1350px;
+  }
+  .cutiepz8{
+    background-color: #bbb;
+    width:700px;
+    height:550px;
+    position:relative;
+    left:1100px;
+    bottom:950px;
+    border-radius:15%;  
+    z-index: 1;
+  }
+  .poza8{
+    position: relative;
+    left:100px;
+    bottom:-90px;
+    z-index: 40;
+    width:500px;
+    height:400px;
+    border-radius:15%;
+    }
+    .titlucutie6 {
+      position: relative;
+      margin-left: 13.3%;
+      background-color:rgb(217,217,217);
+      color: #000000;
+      padding: 10px;
+      font-size: 1.2rem;
+      bottom:800px;
+    }
+    .titlucutie6 h1 {
+      font-size: 5.5rem;
+      margin: 0;
+      text-align: center;
+    }
+    .p8{
+      position:relative;
+      left:330px;
+      bottom:650px;
+      font-size:30px;
+      font-weight:700;
+      max-width:800px;
+    }
+    .cutiepz9{
+      background-color: #bbb;
+      width:600px;
+      height:450px;
+      position:relative;
+      left:1200px;
+      bottom:1430px;
+      border-radius:15%;  
+      z-index:1;
+    }
+      .poza9{
+    position: relative;
+    left:75px;
+    bottom:-50px;
+    z-index: 40;
+    width:450px;
+    height:350px;
+    border-radius:15%;
+    }
+    .p9{
+      position:relative;
+      left:1050px;
+      bottom:500px;
+      font-size:30px;
+      font-weight:700;
+      max-width:800px;
+    }
+    .cutiepz10{
+      background-color: #bbb;
+      width:600px;
+      height:450px;
+      position:relative;
+      left:350px;
+      bottom:1375px;
+      border-radius:15%;  
+      z-index:1;
+    }
+      .poza10{
+    position: relative;
+    left:75px;
+    bottom:-50px;
+    z-index: 40;
+    width:450px;
+    height:350px;
+    border-radius:15%;
+    }
+

@@ -1,0 +1,263 @@
+body {
+    background-color: rgb(15, 38, 108);
+    color: #ffffff;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  overflow-x: hidden;
+  font-family: "inter", sans-serif;
+}
+.header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: transparent;
+    color: white;
+    padding: 20px 25px 5px;
+  }
+  
+  .hamburger {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 5px;
+  }
+  
+  .hamburger span {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    border-radius: 5px;
+    transition: all background-color 0.8s ease-in-out;
+    cursor: pointer;
+  }
+
+  .hamburger:hover{
+    background-color: #000000;
+    opacity: 40%;
+  }
+  .hamburger:active{
+    background-color: #5a1010;
+  }
+
+  .menu {
+    position: relative;
+    background-color: #444;
+    color: white;
+    padding: 50px 20px;
+    transform: translateY(-100%);
+    opacity: 0;
+    transition: transform 0.5s ease, opacity 0.5s ease; 
+  }
+  
+  .menu.slide-down {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  
+  .menu-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu-links li {
+    margin: 10px 0;
+  }
+  
+  .menu-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 10px;
+    display: block;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+
+  .menu-links a:hover {
+    background-color: #555;
+  }
+  .sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 250px;
+    background-color: rgb(217, 217, 217);
+    overflow: auto;
+    padding-top: 10px;
+}
+
+.sidebar a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #000000;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.sidebar a:hover {
+    color: white;
+    background-color: #444;
+}
+
+.sidebar h2 {
+    color: #000000;
+    padding-left: 20px;
+}
+
+.capitol {
+    margin-bottom: 10px;
+}
+
+.capitol-btn {
+    width: 100%;
+    background-color: #ccc;
+    border: none;
+    padding: 10px;
+    text-align: left;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.capitol-btn:hover {
+    background-color: #bbb;
+}
+
+.lectii {
+    display: none;
+    padding-left: 20px;
+}
+
+.lectii a {
+    padding: 8px 10px;
+    display: block;
+}
+
+.titluc{
+  position:relative;
+  width:1800px;
+  height:176px;
+  background-color: rgb(217,217,217);
+  left:250px;
+}
+.titluc h1{
+  position:relative;
+  color: #000000;
+  font-size: 4rem;
+ max-width:700px;
+bottom: 20px;
+font-weight: bold;
+}
+.muschifiz{
+  position:absolute;
+  width:1275px;
+  height:543px;
+  left:750px;
+  bottom:300px;
+}
+.cutie2{
+position:relative;
+width:860px;
+height:542px;
+background-color: rgb(243, 142, 41);
+border-radius: 50px;
+left:980px;
+top:284px;
+z-index: 2;
+}
+.cutie2 p{
+  position:relative;
+  color: #000000;
+  font-size: 4rem;
+font-weight: bolder;
+left:60px;
+max-width: 800px;
+top:30px;
+}
+.cutie3{
+  position:relative;
+width:908px;
+height:621px;
+background-color: rgb(63, 63, 63);
+border-radius: 50px;
+left:450px;
+bottom:180px;
+}
+.postura{
+  position:relative;
+  width:900px;
+  height:621px;
+  right:120px;
+  z-index: 3;
+}
+.linie1{
+  position:relative;
+  width:1700px;
+  height:2px;
+  background-color: rgb(243, 142, 41);
+  left:250px;
+}
+.cutie4{
+  position: relative;
+  width: 1260px;
+  height: 1431px;
+  background-color: rgb(12,29,81);
+  border-radius: 140px;
+  left:455px;
+}
+.cutie4 h1{
+  position:relative;
+  color: rgb(194,72,71);
+  font-size:4rem;
+  max-width: 812px;
+  top:70px;
+  left:115px;
+  font-weight: bold;
+}
+.cutie4 p{
+  position:relative;
+  color: rgb(217,217,217);
+  font-size: 4rem;
+  max-width: 812px;
+ font-weight: bold;
+ left:115px;
+ bottom:90px;
+}
+.brat{
+  position: relative;
+  width:1505px;
+  height: 1003px;
+  bottom:690px;
+  right:245px;
+  border-radius: 140px;
+}
+.cutie5{
+  position: relative;
+  width: 1077px;
+  height: 368px;
+  background-color:rgb(243, 142, 41);
+  border-radius: 100px;
+  left:550px;
+  top:200px;
+
+}
+.cutie5 p{
+  position: relative;
+  font-size: 4rem;
+  color: black;
+  font-weight: bold;
+  left:50px;
+  padding-top: 5px;
+}
+.cerc1{
+  position: relative;
+  width:150px;
+  height:150px;
+  border-radius: 50%;
+  background-color: rgb(194,72,71);
+  left:994px;
+  bottom:420px;
+}
